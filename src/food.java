@@ -20,10 +20,10 @@ public class food {
                 System.out.println("For next 3 km is Rs.3 delivery charges");
                 System.out.println("For next km is 6 Rs.delivery charges");
                 int distance = sc.nextInt();  // distance of your place in km
-                if (distance >= 3) {
+                if (distance <= 3) {
                     System.out.println("YOUR ORDER IS PLACED");
                     System.out.println("your Total bill Amount=Rs." + 120 * quantity + " only");
-                } else if (distance >= 4 && distance <= 6) {
+                } else if (distance >3 && distance <= 6) {
                     System.out.println("YOUR ORDER IS PLACED");
                     System.out.println("your Total bill Amount=Rs." + (120 * quantity + 3) + " only");
                 } else {
@@ -46,10 +46,10 @@ public class food {
                 System.out.println("For next 3 km is Rs.3 delivery charges");
                 System.out.println("For next km is 6 Rs.delivery charges");
                 int distance = sc.nextInt();
-                if (distance >= 3) {
+                if (distance <= 3) {
                     System.out.println("YOUR ORDER IS PLACED");
                     System.out.println("your Total bill Amount=Rs." + 150 * quantity + " only");
-                } else if (distance >= 4 && distance <= 6) {
+                } else if (distance > 3 && distance <= 6) {
                     System.out.println("YOUR ORDER IS PLACED");
                     System.out.println("your Total bill Amount=Rs." + (150 * quantity + 3) + " only");
                 } else {
